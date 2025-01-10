@@ -303,3 +303,165 @@ width: 64px;
             background-color: white;
         }
         
+        /*recent news styles*/
+
+        .news{
+            height: 1406px;
+            width: 1280px;
+            margin: 0 160px;
+        }
+        .news-title{
+            font-family: "Fira Sans", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 40px;
+            color: #0E0E0E;
+        
+        }
+
+        .news-description{
+            font-family: "Fira Sans", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            color: #0E0E0E;
+            opacity: 0.7;
+        }
+
+        .news1{
+            display: flex;
+            align-content: center;
+            margin: 50px 0px;
+        }
+
+.news1-image{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    margin: 30px;
+}
+
+.news1-title{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #0E0E0E; 
+    opacity: 0.8;
+}
+
+.news1-sub-image{
+    width: 134px;
+    height: 40px;
+}
+
+.news1-dateandtime{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
+}
+
+.news1-description{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
+    height: 72px;
+    width: 744px;
+  
+}
+
+.news1-button{
+    height: 48px;
+    width: 139px;
+    border-radius: 8px;
+    border: 2px solid #006A50; 
+    background-color: #006A50; 
+    color: white; 
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.news1-button:hover {
+    color: #006A50;
+    background-color: white; 
+     
+}
+
+
+
+.news2{
+    display: flex;
+    align-content: center;
+    margin: 50px 0px;
+}
+
+.news2-image{
+width: 408px;
+height: 306px;
+border-radius: 24px;
+margin: 30px;
+}
+
+.news2-title{
+font-family: "Fira Sans", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 32px;
+color: #0E0E0E; 
+opacity: 0.8;
+}
+
+.news2-sub-image{
+width: 134px;
+height: 40px;
+}
+
+.news2-dateandtime{
+font-family: "Fira Sans", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+color: #0E0E0E;
+opacity: 0.7;
+}
+
+.news2-description{
+font-family: "Fira Sans", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+color: #0E0E0E;
+opacity: 0.7;
+height: 72px;
+width: 744px;
+
+}
+
+.news2-button{
+height: 48px;
+width: 139px;
+border-radius: 8px;
+border: 2px solid #006A50; 
+background-color: #006A50; 
+color: white; 
+font-family: "Fira Sans", serif;
+font-weight: 600;
+font-style: normal;
+font-size: 18px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.news2-button:hover {
+color: #006A50;
+background-color: white; 
+
+}
