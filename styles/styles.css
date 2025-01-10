@@ -51,6 +51,7 @@
 .hero{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero-text-container{
@@ -64,6 +65,7 @@ height: 326px;
     font-style: normal;
     font-size: 24px;
     color: #0E0E0E;
+    opacity: 0.5;
 }
 
 .hero-sub-title{
@@ -95,7 +97,209 @@ height: 326px;
 
 
 .hero-image{
-
+    height: 400px;
+    width: 475px;
 }
 
 
+/*the vision of future styles*/
+
+.vision-container{
+    width: 1280px;
+    height: 765px;
+    margin: 80px auto;
+
+}
+
+.vision-title{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.vision-description{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vision-card1{
+    height: 325px;
+    width: 410px;
+    background-color: #8aa4d1;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 12px;
+
+}
+
+.vision-card1-image{
+height: 64px;
+width: 64px;
+}
+
+.vision-card1-title{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 0.8;
+}
+
+.vision-card1-description{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px; 
+    color: #0E0E0E; 
+    opacity: 0.7;
+}
+
+.vision-card1-button{
+    width: 122px;
+    height: 41px; 
+    padding: 0px;
+    background-color: #5490F5; 
+    color: white;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #5490F5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.vision-card1-button:hover{
+    color: #5490F5;
+    background-color: white;
+}
+
+.vision-card2{
+    height: 325px;
+    width: 410px;
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 12px;
+
+}
+
+.vision-card2-image{
+    height: 64px;
+    width: 64px;
+    }
+    
+    .vision-card2-title{
+        font-family: "Fira Sans", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        color: #0E0E0E;
+        opacity: 0.8;
+    }
+    
+    .vision-card2-description{
+        font-family: "Fira Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px; 
+        color: #0E0E0E; 
+        opacity: 0.7;
+    }
+    
+    .vision-card2-button{
+        width: 122px;
+        height: 41px; 
+        padding: 0px;
+        background-color: #09A15C; 
+        color: white;
+        font-family: "Fira Sans", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        border-radius: 8px;
+        border: 2px solid #09A15C;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    
+    }
+    
+    .vision-card2-button:hover{
+        color: #09A15C;
+        background-color: white;
+    }
+
+    .vision-card3{
+        height: 325px;
+        width: 410px;
+        background-color: #F7EBCF;
+        padding: 32px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px 12px;
+    
+    }
+
+    .vision-card3-image{
+        height: 64px;
+        width: 64px;
+        }
+        
+        .vision-card3-title{
+            font-family: "Fira Sans", serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 20px;
+            color: #0E0E0E;
+            opacity: 0.8;
+        }
+        
+        .vision-card3-description{
+            font-family: "Fira Sans", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px; 
+            color: #0E0E0E; 
+            opacity: 0.7;
+        }
+        
+        .vision-card3-button{
+            width: 122px;
+            height: 41px; 
+            padding: 0px;
+            background-color: #FFC239; 
+            color: white;
+            font-family: "Fira Sans", serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 2px solid #FFC239;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        
+        }
+        
+        .vision-card3-button:hover{
+            color: #FFC239;
+            background-color: white;
+        }
+        
