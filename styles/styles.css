@@ -306,7 +306,7 @@ width: 64px;
 
 /* quotes section styles*/
 .quote {
-    background-image: url('/assets/quote-bg.png');
+    background-image: url('../assets/quote-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 64px 64px;
