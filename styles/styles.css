@@ -712,3 +712,27 @@ background-color: white;
     max-width: 622px;
     margin-top: 16px; 
 }
+
+/*footer styles*/
+
+.footer-title{
+    font-family: "Fira Sans" , serif;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer-icons img {
+    width: 32px; 
+    height: 32px;
+}
+
